@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class TransposeMatrix {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter col and row :");
+        System.out.println("Enter row and col :");
         int n = sc.nextInt();
         int m = sc.nextInt();
         int[][] matrix = new int[n][m];
