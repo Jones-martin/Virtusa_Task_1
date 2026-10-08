@@ -1,4 +1,4 @@
-function isPalindrome(str: string): String {
+function isPalindrome(str: string):string {
     const cleaned = str.toLowerCase()
     let r = cleaned.length-1;
     let l = 0;
