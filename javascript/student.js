@@ -1,20 +1,21 @@
-class Student {
-    constructor(id, name, grade) {
-        this.id = id;
-        this.name = name;
-        this.grade = grade;
-    }
 
-    getDetails() {
+class Student{
+    constructor(id, name, grade){
+        this.id= id;
+        this.name=name;
+        this.grade=grade;
+    }
+    display(){
         return `ID: ${this.id}, Name: ${this.name}, Grade: ${this.grade}`;
     }
 
-    updateGrade(newGrade) {
-        this.grade = newGrade;
+    setName(name){
+        this.name = name;
     }
 }
 
-const student1 = new Student(101, "Alice", "A");
-console.log(student1.getDetails());
-student1.updateGrade("A+");
-console.log(student1.getDetails());
+
+const std = new Student(1,"Jones", "A");
+console.log(std.display());
+std.setName("Martin");
+console.log(std.display())

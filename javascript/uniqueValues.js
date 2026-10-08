@@ -1,4 +1,4 @@
-function getNonDuplicates(arr) {
+function Unique(arr) {
     const map = {};
 
     for (const num of arr) {
@@ -10,4 +10,7 @@ function getNonDuplicates(arr) {
 
 const numbers = [1, 2, 2, 3, 4, 4, 5, 1, 6];
 
-console.log(getNonDuplicates(numbers));
+console.log(Unique(numbers));
+
+
+

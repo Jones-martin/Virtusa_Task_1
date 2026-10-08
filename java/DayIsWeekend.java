@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class DayOfWeekEnum {
+public class DayIsWeekend {
 
     enum Day {
         SUNDAY(true),
@@ -11,7 +11,7 @@ public class DayOfWeekEnum {
         FRIDAY(false),
         SATURDAY(false);
 
-        private final boolean isWeekend;
+        boolean isWeekend;
 
         Day(boolean isWeekend) {
             this.isWeekend = isWeekend;

@@ -9,3 +9,4 @@ function displayCurrentTime() {
 }
 
 setInterval(displayCurrentTime, 1000);
+
