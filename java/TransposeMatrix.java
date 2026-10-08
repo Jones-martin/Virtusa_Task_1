@@ -6,15 +6,15 @@ public class TransposeMatrix {
         System.out.println("Enter col and row :");
         int n = sc.nextInt();
         int m = sc.nextInt();
-        int[][] l = new int[n][m];
+        int[][] matrix = new int[n][m];
         for(int i=0;i<n;i++){
             for(int j=0;j<m;j++){
-                l[i][j]=sc.nextInt();
+                matrix[i][j]=sc.nextInt();
             }
         }
         for(int i=0;i<n;i++){
             for(int j=0;j<m;j++){
-                System.out.print(l[i][j]+" ");
+                System.out.print(matrix[i][j]+" ");
                 
             }
             System.out.println();
@@ -23,7 +23,7 @@ public class TransposeMatrix {
             
         for(int i=0;i<m;i++){
             for(int j=0;j<n;j++){
-                System.out.print(l[j][i]+" ");
+                System.out.print(matrix[j][i]+" ");
             }
             System.out.println();
         }
